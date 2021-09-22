@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+html{
+    height: 100%;
+    background-color: orange;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    padding-top: 85px;
+    padding-left: 8px;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: mediumpurple;
+    color: darkgreen;
+    box-sizing: border-box;
+    padding: 20px 8px;
+}
+
+h1{
+    margin-bottom: 20px;
+    color: darkred;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 20px;
+    color: white;
+}
+
+a{
+    color: lightgreen;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+}
